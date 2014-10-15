@@ -68,19 +68,37 @@
     <Compile Include="GlowneOkno.Designer.cs">
       <DependentUpon>GlowneOkno.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelAdministracyjny.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelAdministracyjny.Designer.cs">
+      <DependentUpon>PanelAdministracyjny.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelRejestracyjny.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PanelRejestracyjny.Designer.cs">
       <DependentUpon>PanelRejestracyjny.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelUzytkownika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelUzytkownika.Designer.cs">
+      <DependentUpon>PanelUzytkownika.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GlowneOkno.resx">
       <DependentUpon>GlowneOkno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PanelAdministracyjny.resx">
+      <DependentUpon>PanelAdministracyjny.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PanelRejestracyjny.resx">
       <DependentUpon>PanelRejestracyjny.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelUzytkownika.resx">
+      <DependentUpon>PanelUzytkownika.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
