@@ -1,6 +1,6 @@
 ﻿namespace AptekaInternetowa
 {
-    partial class Form1
+    partial class GlowneOkno
     {
         /// <summary>
         /// Required designer variable.

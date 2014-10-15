@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AptekaInternetowa
 {
-    public partial class Form1 : Form
+    public partial class GlowneOkno : Form
     {
-        public Form1()
+        public GlowneOkno()
         {
             InitializeComponent();
         }
