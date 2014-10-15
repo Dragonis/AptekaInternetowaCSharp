@@ -35,7 +35,7 @@
             this.label_Pesel = new System.Windows.Forms.Label();
             this.textBox_Pesel = new System.Windows.Forms.TextBox();
             this.textBox_Imie = new System.Windows.Forms.TextBox();
-            this.textBox_Nazwisko = new System.Windows.Forms.TextBox();
+            this.textBox_Haslo = new System.Windows.Forms.TextBox();
             this.button_ZapiszDane = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,9 +53,9 @@
             this.label_Nazwisko.AutoSize = true;
             this.label_Nazwisko.Location = new System.Drawing.Point(43, 108);
             this.label_Nazwisko.Name = "label_Nazwisko";
-            this.label_Nazwisko.Size = new System.Drawing.Size(53, 13);
+            this.label_Nazwisko.Size = new System.Drawing.Size(34, 13);
             this.label_Nazwisko.TabIndex = 1;
-            this.label_Nazwisko.Text = "Nazwisko";
+            this.label_Nazwisko.Text = "Haslo";
             // 
             // label3
             // 
@@ -98,12 +98,12 @@
             this.textBox_Imie.Size = new System.Drawing.Size(100, 20);
             this.textBox_Imie.TabIndex = 6;
             // 
-            // textBox_Nazwisko
+            // textBox_Haslo
             // 
-            this.textBox_Nazwisko.Location = new System.Drawing.Point(137, 112);
-            this.textBox_Nazwisko.Name = "textBox_Nazwisko";
-            this.textBox_Nazwisko.Size = new System.Drawing.Size(100, 20);
-            this.textBox_Nazwisko.TabIndex = 7;
+            this.textBox_Haslo.Location = new System.Drawing.Point(137, 112);
+            this.textBox_Haslo.Name = "textBox_Haslo";
+            this.textBox_Haslo.Size = new System.Drawing.Size(100, 20);
+            this.textBox_Haslo.TabIndex = 7;
             // 
             // button_ZapiszDane
             // 
@@ -113,6 +113,7 @@
             this.button_ZapiszDane.TabIndex = 8;
             this.button_ZapiszDane.Text = "Zapisz Dane";
             this.button_ZapiszDane.UseVisualStyleBackColor = true;
+            this.button_ZapiszDane.Click += new System.EventHandler(this.button_ZapiszDane_Click);
             // 
             // PanelRejestracyjny
             // 
@@ -120,7 +121,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button_ZapiszDane);
-            this.Controls.Add(this.textBox_Nazwisko);
+            this.Controls.Add(this.textBox_Haslo);
             this.Controls.Add(this.textBox_Imie);
             this.Controls.Add(this.textBox_Pesel);
             this.Controls.Add(this.label_Pesel);
@@ -144,7 +145,7 @@
         private System.Windows.Forms.Label label_Pesel;
         private System.Windows.Forms.TextBox textBox_Pesel;
         private System.Windows.Forms.TextBox textBox_Imie;
-        private System.Windows.Forms.TextBox textBox_Nazwisko;
+        private System.Windows.Forms.TextBox textBox_Haslo;
         private System.Windows.Forms.Button button_ZapiszDane;
     }
 }

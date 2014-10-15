@@ -16,5 +16,11 @@ namespace AptekaInternetowa
         {
             InitializeComponent();
         }
+
+        private void button_Zarejestruj_Click(object sender, EventArgs e)
+        {
+            PanelRejestracyjny p = new PanelRejestracyjny();
+            p.Show();
+        }
     }
 }

@@ -54,6 +54,7 @@
             this.button_Zarejestruj.TabIndex = 1;
             this.button_Zarejestruj.Text = "Zarejestruj";
             this.button_Zarejestruj.UseVisualStyleBackColor = true;
+            this.button_Zarejestruj.Click += new System.EventHandler(this.button_Zarejestruj_Click);
             // 
             // label_AptekaInternetowa
             // 
@@ -97,7 +98,7 @@
             this.maskedTextBox_Haslo.Size = new System.Drawing.Size(100, 20);
             this.maskedTextBox_Haslo.TabIndex = 6;
             // 
-            // Form1
+            // GlowneOkno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +110,7 @@
             this.Controls.Add(this.label_AptekaInternetowa);
             this.Controls.Add(this.button_Zarejestruj);
             this.Controls.Add(this.button_Zaloguj);
-            this.Name = "Form1";
+            this.Name = "GlowneOkno";
             this.Text = "Apteka Internetowa";
             this.ResumeLayout(false);
             this.PerformLayout();
